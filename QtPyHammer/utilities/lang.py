@@ -5,8 +5,8 @@ def setLanguage(language):
     global usingLanguage
     usingLanguage = language.lower()
     
-def langFile(language=usingLanguage):
-    match(language):
+def langFile(language = usingLanguage):
+    match language:
         case "english":
             return "File"
         case "spanish":
@@ -17,7 +17,7 @@ def langFile(language=usingLanguage):
             return "File"
             
 def langEdit(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "Edit"
         case "spanish":
@@ -28,7 +28,7 @@ def langEdit(language=usingLanguage):
             return "Edit"
 
 def langTools(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "Tools"
         case "spanish":
@@ -39,7 +39,7 @@ def langTools(language=usingLanguage):
             return "Tools"
             
 def langOk(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "Ok"
         case "spanish":
@@ -50,7 +50,7 @@ def langOk(language=usingLanguage):
             return "Ok"
 
 def langUndo(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "Undo"
         case "french":
@@ -67,7 +67,7 @@ def langUndo(language=usingLanguage):
             return "Undo"
             
 def langRedo(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "Redo"
         case "spanish":
@@ -78,7 +78,7 @@ def langRedo(language=usingLanguage):
             return "Redo"
 
 def langCompile(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "Compile"
         case "spanish":
@@ -89,7 +89,7 @@ def langCompile(language=usingLanguage):
             return "Compile"
 
 def langExit(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "Exit"
         case "french":
@@ -102,7 +102,7 @@ def langExit(language=usingLanguage):
             return "Exit"
 
 def langNo(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "No"
         case "french":
@@ -113,7 +113,7 @@ def langNo(language=usingLanguage):
             return "No"
 
 def langNormal(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "Normal"
         case "french":
@@ -126,7 +126,7 @@ def langNormal(language=usingLanguage):
             return "Normal"
 
 def langFast(language=usingLanguage):
-    match(language):
+    match language:
         case "english":
             return "Fast"
         case "french":

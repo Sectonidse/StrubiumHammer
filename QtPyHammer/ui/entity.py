@@ -3,6 +3,9 @@ import textwrap
 import valvefgd
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+from QtPyHammer.ui import popup
+
+
 # from .. import utilities.entity
 
 # TODO: split each tab into a class
